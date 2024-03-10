@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D048EEFC2B9E0AA30067C267 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D048EEFB2B9E0AA30067C267 /* CircleImage.swift */; };
+		D048EEFE2B9E0BD40067C267 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D048EEFD2B9E0BD40067C267 /* MapView.swift */; };
 		D08C65E42B9D7FDD00650F81 /* FirstAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08C65E32B9D7FDD00650F81 /* FirstAppApp.swift */; };
 		D08C65E62B9D7FDD00650F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08C65E52B9D7FDD00650F81 /* ContentView.swift */; };
 		D08C65E82B9D7FDF00650F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08C65E72B9D7FDF00650F81 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D048EEFB2B9E0AA30067C267 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D048EEFD2B9E0BD40067C267 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D08C65E02B9D7FDD00650F81 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08C65E32B9D7FDD00650F81 /* FirstAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppApp.swift; sourceTree = "<group>"; };
 		D08C65E52B9D7FDD00650F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				D08C65E32B9D7FDD00650F81 /* FirstAppApp.swift */,
 				D08C65E52B9D7FDD00650F81 /* ContentView.swift */,
 				D08C65E72B9D7FDF00650F81 /* Assets.xcassets */,
+				D048EEFB2B9E0AA30067C267 /* CircleImage.swift */,
+				D048EEFD2B9E0BD40067C267 /* MapView.swift */,
 				D08C65E92B9D7FDF00650F81 /* Preview Content */,
 			);
 			path = FirstApp;
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D08C65E62B9D7FDD00650F81 /* ContentView.swift in Sources */,
+				D048EEFE2B9E0BD40067C267 /* MapView.swift in Sources */,
 				D08C65E42B9D7FDD00650F81 /* FirstAppApp.swift in Sources */,
+				D048EEFC2B9E0AA30067C267 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
