@@ -16,6 +16,7 @@
 		D08C65F52B9D7FDF00650F81 /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08C65F42B9D7FDF00650F81 /* FirstAppTests.swift */; };
 		D08C65FF2B9D7FDF00650F81 /* FirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08C65FE2B9D7FDF00650F81 /* FirstAppUITests.swift */; };
 		D08C66012B9D7FDF00650F81 /* FirstAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08C66002B9D7FDF00650F81 /* FirstAppUITestsLaunchTests.swift */; };
+		D0A5B28C2B9F076A00A9FAD1 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A5B28B2B9F076A00A9FAD1 /* FavoriteButton.swift */; };
 		D0E2E42E2B9EB1B2001324DA /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = D0E2E42D2B9EB1B2001324DA /* landmarkData.json */; };
 		D0E2E4302B9EB1EF001324DA /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2E42F2B9EB1EF001324DA /* Landmark.swift */; };
 		D0E2E4322B9EB416001324DA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2E4312B9EB416001324DA /* ModelData.swift */; };
@@ -54,6 +55,7 @@
 		D08C65FA2B9D7FDF00650F81 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08C65FE2B9D7FDF00650F81 /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		D08C66002B9D7FDF00650F81 /* FirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0A5B28B2B9F076A00A9FAD1 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		D0E2E42D2B9EB1B2001324DA /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		D0E2E42F2B9EB1EF001324DA /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		D0E2E4312B9EB416001324DA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -145,6 +147,26 @@
 			path = FirstAppUITests;
 			sourceTree = "<group>";
 		};
+		D0A5B28D2B9F089500A9FAD1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D0A5B28B2B9F076A00A9FAD1 /* FavoriteButton.swift */,
+				D048EEFB2B9E0AA30067C267 /* CircleImage.swift */,
+				D048EEFD2B9E0BD40067C267 /* MapView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D0A5B28E2B9F08DB00A9FAD1 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2E4372B9EB902001324DA /* LandmarkRow.swift */,
+				D0E2E4392B9EBAE0001324DA /* LandmarkList.swift */,
+				D0E2E43B2B9EBD1C001324DA /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
 		D0E2E4332B9EB7B5001324DA /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,11 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				D08C65E52B9D7FDD00650F81 /* ContentView.swift */,
-				D048EEFB2B9E0AA30067C267 /* CircleImage.swift */,
-				D048EEFD2B9E0BD40067C267 /* MapView.swift */,
-				D0E2E4372B9EB902001324DA /* LandmarkRow.swift */,
-				D0E2E4392B9EBAE0001324DA /* LandmarkList.swift */,
-				D0E2E43B2B9EBD1C001324DA /* LandmarkDetail.swift */,
+				D0A5B28E2B9F08DB00A9FAD1 /* Landmarks */,
+				D0A5B28D2B9F089500A9FAD1 /* Helper */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +328,7 @@
 				D08C65E62B9D7FDD00650F81 /* ContentView.swift in Sources */,
 				D048EEFE2B9E0BD40067C267 /* MapView.swift in Sources */,
 				D08C65E42B9D7FDD00650F81 /* FirstAppApp.swift in Sources */,
+				D0A5B28C2B9F076A00A9FAD1 /* FavoriteButton.swift in Sources */,
 				D0E2E43A2B9EBAE0001324DA /* LandmarkList.swift in Sources */,
 				D0E2E43C2B9EBD1C001324DA /* LandmarkDetail.swift in Sources */,
 				D048EEFC2B9E0AA30067C267 /* CircleImage.swift in Sources */,
